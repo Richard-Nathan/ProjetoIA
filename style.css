@@ -1,0 +1,260 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte01: 'Rubik', sans-serif;
+    --cor1: #5d3ca3;
+    --cor2: #8679D9;
+    --cor3: #2E3D59;
+    --cor4: #141A26;
+}
+
+body {
+   background-color: var(--cor4);
+}
+p{
+    box-shadow: 5px 3px 9px rgba(0, 0, 0, 0.164) ;
+    font-family: var(--fonte01);
+    
+
+}
+img{
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.425) 
+
+}
+
+header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 50px;
+    background-color: var(--cor3);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+
+header>h1 {
+    font-variant: small-caps;
+}
+
+header>p>a:hover {
+    font-size: 19px;
+    color: rgb(245, 241, 30);
+    transition: 1s;
+
+}
+
+
+
+span.ia {
+    color: rgb(0, 255, 213);
+
+}
+
+section#gato {
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    height: 400px;
+    padding: 10px;
+    background-color: var(--cor2);
+    margin: 25px;
+    margin-top: 80px;
+    border-radius: 20px;
+
+}
+
+#gato>p {
+    animation: gato 1s;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 5px;
+    padding: 10px;
+    top: 155px;
+    right: 40px;
+    text-align: left;
+    text-indent: 10px;
+    max-width: 800px;
+    min-width: 300px;
+    margin-left: 10px;
+
+
+}
+
+section#gato>img {
+    border-radius: 50px;
+}
+
+section#anime {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin: 25px;
+    padding: 10px;
+    height: 400px;
+    background-color: var(--cor1);
+    border-radius: 20px;
+
+
+}
+
+section#anime>p {
+    animation: anime 1s;
+    animation-timeline: view();
+    animation-range: cover 0% 55%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.521);
+    text-align: left;
+    text-indent: 10px;
+    max-width: 800px;
+    max-height: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    top: 126px;
+    left: 40px;
+    border-radius: 20px;
+}
+
+section#anime>img {
+
+    text-align: left;
+    border-radius: 50px;
+
+}
+
+section#bn {
+    position: relative;
+    background-color: var(--cor3);
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    margin: 25px;
+    padding: 10px;
+
+}
+
+section#bn>P {
+    animation: bn 1s;
+    animation-timeline: view();
+    animation-range: cover 0% 55%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 5px;
+    padding: 10px;
+    top: 155px;
+    right: 40px;
+    text-align: left;
+    text-indent: 10px;
+    max-width: 800px;
+    margin-left: 10px;
+    
+    
+
+
+
+}
+
+section#bn>img {
+
+    border-radius: 50px;
+
+}
+
+section#castelo {
+    position: relative;
+    height: 400px;
+    margin: 10px;
+    background: white url('./imagens/castelo.png') center top no-repeat;
+    background-attachment: fixed;
+    border-radius: 50px;
+
+}
+
+#castelo>h3 {
+    position: absolute;
+    padding: 5px;
+    color: white;
+    background-color: var(--cor4);
+    box-shadow: 5px 3px 9px rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+    text-align: center;
+    top: 152px;
+    left: 143px;
+    margin-right: 133px;
+    max-width: 1087px;
+
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    background-color: black;
+    color: white;
+    height: 10px;
+    text-align: center;
+}
+
+
+a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+@keyframes bn {
+    from {
+        opacity: 0;
+        translate: 0 10vw;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes gato {
+    from {
+        opacity: 0;
+        translate: 30vw 0;
+
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+
+    }
+}
+
+@keyframes anime {
+    from {
+        opacity: 0;
+        translate: -30vw 0;
+
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+
+    }
+}
