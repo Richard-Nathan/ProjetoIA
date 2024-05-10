@@ -18,12 +18,15 @@
 
 body {
    background-color: var(--cor4);
+  
 }
 p{
     box-shadow: 5px 3px 9px rgba(0, 0, 0, 0.164) ;
     font-family: var(--fonte01);
-    
-
+   
+}
+header > p{
+    box-shadow: none;
 }
 img{
     box-shadow:5px 5px 20px rgba(0, 0, 0, 0.425) 
