@@ -1,7 +1,18 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+@media(max-width: 600px){
+   
+    
+    section#gato>picture>img {
+        border-radius: 50px;
+       margin-left: 17vw;
+       margin-top: 14vh;
+        
+    }
+    
 
+}
 
 * {
     margin: 0;
@@ -95,8 +106,9 @@ section#gato {
 
 }
 
-section#gato>img {
+section#gato>picture>img {
     border-radius: 50px;
+    
 }
 
 section#anime {
