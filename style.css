@@ -11,7 +11,7 @@
      margin: 7vh 17vw;
         
     }
-    section#gato>picture>img {
+    section#anime>picture>img {
         border-radius: 50px;
         margin: 7vh 17vw;
         
@@ -38,10 +38,8 @@
     --cor3: #2E3D59;
     --cor4: #141A26;
 }
-.foto{
-    max-width: 400px;
-   width: 100%;
-}
+
+
 
 body {
    background-color: var(--cor4);
@@ -183,11 +181,12 @@ section#bn>P {
     background-color: rgba(255, 255, 255, 0.61);
     border-radius: 5px;
     padding: 10px;
-    top: 155px;
+    top: 130px;
     right: 40px;
     text-align: left;
     text-indent: 10px;
-    max-width: 800px;
+    max-width: 700px;
+    max-height: 200px;
     margin-left: 10px;
     
     
@@ -220,9 +219,9 @@ section#castelo {
     box-shadow: 5px 3px 9px rgba(0, 0, 0, 0.164);
     border-radius: 5px;
     text-align: center;
-    top: 152px;
+    top: 78px;
     left: 143px;
-    margin-right: 133px;
+    margin-right: 130px;
     max-width: 1087px;
 
 }
