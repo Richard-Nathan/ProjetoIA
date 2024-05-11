@@ -5,25 +5,39 @@
   
    
     /* AINDA EM DESENVOLVIMENTO*/
+    section#gato{
+        max-width: 400px;
+        padding: 10px;
+    }
     
     section#gato>picture>img {
     border-radius: 50px;
      margin: 7vh 17vw;
         
     }
+    section#anime{
+        max-width: 400px;
+        padding: 10px;
+    }
+
     section#anime>picture>img {
         border-radius: 50px;
         margin: 7vh 17vw;
         
     }
     section#bn {
-        width: auto;
+        max-width: 400px;
+        padding: 10px;
     }
     section#bn>picture>img {
 
         border-radius: 50px;
         margin: 7vh 17vw;
     
+    }
+    section#castelo {
+        max-width: 400px;
+        padding: 30px;
     }
     
 
