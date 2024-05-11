@@ -7,7 +7,7 @@
     /* AINDA EM DESENVOLVIMENTO*/
     section#gato{
         max-width: 400px;
-        padding: 10px;
+        padding: 30px;
     }
     
     section#gato>picture>img {
@@ -17,7 +17,7 @@
     }
     section#anime{
         max-width: 400px;
-        padding: 10px;
+        padding: 30px;
     }
 
     section#anime>picture>img {
@@ -27,7 +27,7 @@
     }
     section#bn {
         max-width: 400px;
-        padding: 10px;
+        padding: 30px;
     }
     section#bn>picture>img {
 
@@ -125,7 +125,7 @@ section#gato {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.301);
     border-radius: 5px;
-    padding: 30px;
+    padding: 10px;
     top: 155px;
     right: 40px;
     text-align: left;
@@ -165,7 +165,7 @@ section#anime>p {
     text-indent: 10px;
     max-width: 800px;
     max-height: 300px;
-    padding: 30px;
+    padding: 10px;
     margin-right: 10px;
     top: 126px;
     left: 40px;
@@ -186,7 +186,7 @@ section#bn {
     display: flex;
     justify-content: left;
     margin: 25px;
-    padding: 30px;
+    padding: 10px;
 
 }
 
