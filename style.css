@@ -11,6 +11,17 @@
      margin: 7vh 17vw;
         
     }
+    section#gato>picture>img {
+        border-radius: 50px;
+        margin: 7vh 17vw;
+        
+    }
+    section#bn>picture>img {
+
+        border-radius: 50px;
+        margin: 7vh 17vw;
+    
+    }
     
 
 }
@@ -146,7 +157,7 @@ section#anime>p {
     border-radius: 20px;
 }
 
-section#anime>img {
+section#anime>picture>img {
 
     text-align: left;
     border-radius: 50px;
@@ -185,7 +196,7 @@ section#bn>P {
 
 }
 
-section#bn>img {
+section#bn>picture>img {
 
     border-radius: 50px;
 
