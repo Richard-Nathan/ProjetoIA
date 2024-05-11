@@ -7,7 +7,7 @@
     /* AINDA EM DESENVOLVIMENTO*/
     section#gato{
         max-width: 400px;
-        padding: 30px;
+        padding: 10px;
     }
     
     section#gato>picture>img {
@@ -17,7 +17,7 @@
     }
     section#anime{
         max-width: 400px;
-        padding: 30px;
+        padding: 10px;
     }
 
     section#anime>picture>img {
@@ -27,7 +27,7 @@
     }
     section#bn {
         max-width: 400px;
-        padding: 30px;
+        padding: 10px;
     }
     section#bn>picture>img {
 
