@@ -16,6 +16,9 @@
         margin: 7vh 17vw;
         
     }
+    section#bn {
+        width: auto;
+    }
     section#bn>picture>img {
 
         border-radius: 50px;
@@ -186,7 +189,7 @@ section#bn>P {
     text-align: left;
     text-indent: 10px;
     max-width: 700px;
-    max-height: 200px;
+    max-height: 300px;
     margin-left: 10px;
     
     
@@ -203,6 +206,7 @@ section#bn>picture>img {
 
 section#castelo {
     position: relative;
+    width: auto;
     height: 400px;
     margin: 10px;
     background: white url('./imagens/castelo.png') center top no-repeat;
