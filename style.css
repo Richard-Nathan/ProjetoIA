@@ -250,6 +250,7 @@ footer {
     background-color: black;
     color: white;
     height: 10px;
+    max-width: 100%;
     text-align: center;
 }
 
