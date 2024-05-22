@@ -151,8 +151,6 @@ section#anime {
     height: 400px;
     background-color: var(--cor1);
     border-radius: 20px;
-
-
 }
 
 section#anime>p {
@@ -187,7 +185,6 @@ section#bn {
     justify-content: left;
     margin: 25px;
     padding: 10px;
-
 }
 
 section#bn>P {
@@ -205,11 +202,7 @@ section#bn>P {
     max-width: 700px;
     max-height: 300px;
     margin-left: 10px;
-    
-    
-
-
-
+ 
 }
 
 section#bn>picture>img {
@@ -226,7 +219,6 @@ section#castelo {
     background: white url('./imagens/castelo.png') center top no-repeat;
     background-attachment: fixed;
     border-radius: 50px;
-
 }
 
 #castelo>h3 {
