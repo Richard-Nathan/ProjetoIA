@@ -304,3 +304,17 @@ a:hover{
 
     }
 }
+/*  apenas brincando com animações
+@keyframes move {
+    0% { transform: translateY(0px); } /* Começa na posição inicial  
+    10% { transform: translateY(10px); } /* Movimento para baixo  
+    20% { transform: translateY(20px) translateX(10px); } /* Movimento para baixo e para a direita 
+    30% { transform: translateY(30px); } /* Movimento para baixo  
+    40% { transform: translateY(40px) translateX(20px); } /* Movimento para baixo e para a direita  
+    50% { transform: translateY(50px); } /* Movimento para baixo  
+    60% { transform: translateY(60px) translateX(10px); } /* Movimento para baixo e para a direita 
+    70% { transform: translateY(70px); } /* Movimento para baixo  
+    80% { transform: translateY(80px) translateX(-10px); } /* Movimento para baixo e para a esquerda  
+    90% { transform: translateY(90px); } /* Movimento para baixo 
+  }  */ 
+  
