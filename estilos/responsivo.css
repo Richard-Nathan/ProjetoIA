@@ -71,7 +71,7 @@
     }
 
     #castelo.ccastelo>h3 {
-        color: red;
+        color: palegreen;
         position: absolute;
         margin: 0 auto;
         top: 200px;
@@ -166,7 +166,7 @@
         height: 500px;
         position: relative;
        
-        background-size: 3000px 1500px;
+      
     }
 
     #castelo.ccastelo>h3 {
@@ -188,7 +188,7 @@
     }
     section#castelo.ccastelo{
         position: relative;
-        background-size: 3000px 1500px;
+        
     }
     #castelo.ccastelo>h3{
         position: absolute;
