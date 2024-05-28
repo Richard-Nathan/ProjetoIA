@@ -215,7 +215,7 @@ section#bn>picture>img {
 
 section#castelo {
     position: relative;
-    width: auto;
+    max-width: 300px;
     height: 400px;
     margin: 10px;
     background: white url('/imagens/castelo.png') center top no-repeat;
