@@ -62,7 +62,7 @@
     #bn.cbn>picture {
         margin: 0 auto 0 auto;
     }
-
+ /*
     section#castelo.ccastelo {
         background: white url('/imagens/castelo.png') center top no-repeat;
         background-attachment: fixed;
@@ -80,6 +80,7 @@
         top: 200px;
         left: 0;
     }
+    */
 
     @keyframes anime {
         from {
@@ -164,7 +165,7 @@
         left: 405px;
     }
 
-
+ /*
     section#castelo.ccastelo {
         background: white url('/imagens/castelo.png') center top no-repeat;
         background-attachment: fixed;
@@ -180,7 +181,7 @@
         top: 200px;
 
     }
-
+*/
 }
 
 @media (min-width: 1201px) {
@@ -192,6 +193,7 @@
         animation-range: cover 0% 30%;
 
     }
+    /*
 
     section#castelo.ccastelo {
         background: white url('/imagens/castelo.png') center top no-repeat;
@@ -206,7 +208,7 @@
         top: 200px;
 
     }
-
+*/
     @keyframes anime {
         from {
             opacity: 0;
