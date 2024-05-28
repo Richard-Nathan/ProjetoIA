@@ -64,14 +64,17 @@
     }
 
     section#castelo.ccastelo {
-    
+        background: white url('/imagens/castelo.png') center top no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
         position: relative;
         height: 600px;
 
     }
 
     #castelo.ccastelo>h3 {
-        color: palegreen;
+        color: red;
         position: absolute;
         margin: 0 auto;
         top: 200px;
@@ -163,10 +166,13 @@
 
 
     section#castelo.ccastelo {
+        background: white url('/imagens/castelo.png') center top no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
         height: 500px;
         position: relative;
-       
-      
+
+
     }
 
     #castelo.ccastelo>h3 {
@@ -186,11 +192,16 @@
         animation-range: cover 0% 30%;
 
     }
-    section#castelo.ccastelo{
+
+    section#castelo.ccastelo {
+        background: white url('/imagens/castelo.png') center top no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
         position: relative;
-        
+
     }
-    #castelo.ccastelo>h3{
+
+    #castelo.ccastelo>h3 {
         position: absolute;
         top: 200px;
 
