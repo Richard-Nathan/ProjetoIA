@@ -176,7 +176,7 @@ section#bn>picture>img {
 
 }
 
-section#castelo {
+section#castelo.ccastelo {
     position: relative;
     width: auto;
     height: 400px;
