@@ -63,14 +63,16 @@
         margin: 0 auto 0 auto;
     }
  
-    section#castelo.ccastelo {
+    section#castelo {    
+    
+        position: relative;
+        width: auto;
+        height: 600px;
+        margin: 10px;
         background: white url('/imagens/castelo.png') center top no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-
-        position: relative;
-        height: 600px;
-
+        background-size: 3000px 1500px;
+        border-radius: 50px;
     }
 
     #castelo.ccastelo>h3 {
@@ -166,14 +168,16 @@
     }
 
  
-    section#castelo.ccastelo {
+    section#castelo {    
+    
+        position: relative;
+        width: auto;
+        height: 500px;
+        margin: 10px;
         background: white url('/imagens/castelo.png') center top no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-        height: 500px;
-        position: relative;
-
-
+        background-size: 3000px 1500px;
+        border-radius: 50px;
     }
 
     #castelo.ccastelo>h3 {
@@ -195,12 +199,16 @@
     }
     
 
-    section#castelo.ccastelo {
+    section#castelo {    
+    
+        position: relative;
+        width: auto;
+        height: 400px;
+        margin: 10px;
         background: white url('/imagens/castelo.png') center top no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-        position: relative;
-
+        background-size: 3000px 1500px;
+        border-radius: 50px;
     }
 
     #castelo.ccastelo>h3 {

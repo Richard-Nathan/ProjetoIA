@@ -215,19 +215,19 @@ section#bn>picture>img {
 
 }
 
-section#castelo {    
+section#castelo.ccastelo {    
     
     position: relative;
     width: auto;
     height: 400px;
     margin: 10px;
-    background: white url('/imagens/castelo.png') center top no-repeat;
+    background: var(--cor2) url('/imagens/castelo.png') center top no-repeat;
     background-attachment: fixed;
     background-size: 3000px 1500px;
     border-radius: 50px;
 }
 
-#castelo>h3 {
+#castelo.ccastelo>h3 {
     position: absolute;
     padding: 5px;
     color: white;
