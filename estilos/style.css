@@ -181,7 +181,7 @@ section#castelo {
     width: auto;
     height: 400px;
     margin: 10px;
-    background: white url('/imagens/castelo.png') center center no-repeat;
+    background: white url('') center center no-repeat;
     background-attachment: fixed;
     border-radius: 50px;
 }
