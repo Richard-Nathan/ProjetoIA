@@ -71,6 +71,7 @@
     }
 
     #castelo.ccastelo>h3 {
+        color: red;
         position: absolute;
         margin: 0 auto;
         top: 200px;
