@@ -176,14 +176,13 @@ section#bn>picture>img {
 
 }
 
-section#castelo.ccastelo {
+section#castelo {
     position: relative;
     width: auto;
     height: 400px;
     margin: 10px;
     background: white url('/imagens/castelo.png') center top no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     border-radius: 50px;
 }
 
