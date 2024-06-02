@@ -45,6 +45,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
 }
 
 :root {
@@ -77,16 +79,16 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 99%;
-    height: 50px;
+    width: 100%;
+    height: 68px;
     background-color: var(--cor3);
     text-align: center;
     color: white;
     padding: 10px;
     
+    
 }
 header > p{
-    
     box-shadow: none;
 }
 
@@ -115,7 +117,7 @@ section#gato {
     position: relative;
     display: flex;
     align-content: space-between;
-    height: 400px;
+    height: 420px;
     padding: 10px;
     background-color: var(--cor2);
     margin: 25px;
@@ -129,6 +131,7 @@ section#gato {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.301);
     border-radius: 5px;
+    box-sizing: content-box;
     padding: 10px;
     top: 155px;
     right: 40px;
@@ -152,7 +155,7 @@ section#anime {
     justify-content: right;
     margin: 25px;
     padding: 10px;
-    height: 400px;
+    height: 420px;
     background-color: var(--cor1);
     border-radius: 20px;
 }
@@ -172,6 +175,7 @@ section#anime>p {
     top: 126px;
     left: 40px;
     border-radius: 20px;
+    box-sizing: content-box;
 }
 
 section#anime>picture>img {
@@ -189,6 +193,7 @@ section#bn {
     justify-content: left;
     margin: 25px;
     padding: 10px;
+    
 }
 
 section#bn>P {
